@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.socialnetwork_gui.presentation.InterfaceGUI.UserController">
+    <TableView fx:id="tableView" minHeight="-Infinity" minWidth="-Infinity"
+               prefHeight="381.0" prefWidth="663.0" AnchorPane.bottomAnchor="0.0"
+               AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+               AnchorPane.topAnchor="0.0">
+        <columns>
+            <TableColumn fx:id="tableColumnUserUUID" prefWidth="75.0" text="uid"/>
+            <TableColumn fx:id="tableColumnUsername" prefWidth="75.0" text="username"/>
+            <TableColumn fx:id="tableColumnEmail" prefWidth="75.0" text="email"/>
+        </columns>
+        <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY"/>
+        </columnResizePolicy>
+    </TableView>
+    <HBox spacing="10.0" alignment="CENTER">
+        <Button text="Delete" onAction="#handleDeleteUser"/>
+        <Button text="Add" onAction="#handleAddUser"/>
+        <Button text="Update" onAction="#handleUpdateUser"/>
+        <Button text="Exit" onAction="#handleExit"/>
+        <Button text="Refresh" onAction="#handleRefresh"/>
+    </HBox>
+</VBox>
