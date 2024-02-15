@@ -12,7 +12,7 @@ Here you can see how the user was saved into SQL database
 
 ![image](https://github.com/AndreiAvram003/Java-Project---Social-Network/assets/132280624/55126f6c-593a-4096-a1f9-ba94549d00cd)
 
-Here it is the window , an user get after he is logging in
+Here  is the window , an user gets after he is logging in
 
 ![image](https://github.com/AndreiAvram003/Java-Project---Social-Network/assets/132280624/313869d4-dafc-4963-b9ce-db0c4963a67b)
 
